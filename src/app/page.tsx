@@ -184,9 +184,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
             {/* PROGRAM STUDI TEOLOGI S1 */}
             <div className="flex justify-center items-center">
-              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 lg:w-64 h-80">
+            <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl px-8 py-4 lg:p-4 w-80 lg:w-64 h-80">
                 <div>
-                  <h2 className="font-bold text-center text-md mb-4">
+                  <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                     Sarjana Teologi (S. Th)
                   </h2>
                 </div>
@@ -218,9 +218,9 @@ export default function Home() {
 
             {/* PROGRAM STUDI PENDIDIKAN AGAMA KRISTEN S1 */}
             <div className="flex justify-center items-center">
-              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 lg:w-64 h-80">
+              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl px-8 py-4 lg:p-4 w-80 lg:w-64 h-80">
                 <div>
-                  <h2 className="font-bold text-center text-md mb-4">
+                  <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                     Sarjana Pendidikan Agama Kristen (S. Pd)
                   </h2>
                 </div>
@@ -252,9 +252,9 @@ export default function Home() {
 
             {/* PROGRAM STUDI TEOLOGI S2 */}
             <div className="flex justify-center items-center">
-              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 lg:w-64 h-80">
+              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl px-8 py-4 lg:p-4 w-80 lg:w-64 h-80">
                 <div>
-                  <h2 className="font-bold text-center text-md mb-4">
+                  <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                     Magister Teologi (M. Th)
                   </h2>
                 </div>
@@ -286,9 +286,9 @@ export default function Home() {
 
             {/* PROGRAM STUDI PENDIDIKAN AGAMA KRISTEN S2 */}
             <div className="flex justify-center items-center">
-              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 lg:w-64 h-80">
+              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl px-8 py-4 lg:p-4 w-80 lg:w-64 h-80">
                 <div>
-                  <h2 className="font-bold text-center text-md mb-4">
+                  <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                     Magister Pendidikan Agama Kristen (M. Pd)
                   </h2>
                 </div>
