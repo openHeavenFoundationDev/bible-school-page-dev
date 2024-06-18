@@ -3,9 +3,25 @@
 @tailwind utilities;
 
 html {
-  scroll-padding-top: 4.5rem; /* Sesuaikan dengan tinggi navbar Anda */
+  scroll-padding-top: 5rem; /* Sesuaikan dengan tinggi navbar Anda */
 }
 
-[id] {
-  scroll-margin-top: 4.5rem; /* Sesuaikan dengan tinggi navbar Anda */
+#about {
+  scroll-margin-top: 5.75rem; /* Sesuaikan dengan tinggi navbar Anda */
+}
+
+#about-sm {
+  scroll-margin-top: 7.75rem; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+/* CSS kustom untuk id="program-sm" */
+#program {
+  scroll-margin-top: 7.75rem; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+/* Media query untuk resolusi yang lebih besar */
+@media (min-width: 768px) {
+  #program {
+    scroll-margin-top: 5.75rem; /* Atur kembali untuk resolusi yang lebih besar */
+  }
 }
