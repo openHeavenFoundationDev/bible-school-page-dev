@@ -76,7 +76,7 @@ export default function Home() {
       </div>
 
       {/*-----CONTENTS-----*/}
-      <div className="pt-52 md:pt-44 p-2 md:p-6">
+      <div className="pt-51 md:pt-44 p-2 md:p-6">
         {/* -----ABOUT-XL-LG-MD----- */}
         <div className="hidden md:block bg-indigo-950 rounded-3xl text-white">
           <div className="grid grid-cols-2">
