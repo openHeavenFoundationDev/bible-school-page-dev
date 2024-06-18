@@ -335,7 +335,7 @@ export default function Home() {
             {/* PS. KEVIN */}
             <div className="flex justify-center md:justify-end items-center">
               <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 h-80">
-                <h2 className="font-bold text-center text-xl mb-4">
+                <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                   Ps. Kevin Zefanya M.Th.
                 </h2>
                 <div className="flex flex-col justify-center items-center w-full">
@@ -360,7 +360,7 @@ export default function Home() {
             {/* PS. DANIEL */}
             <div className="flex justify-center md:justify-start items-center">
               <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 h-80">
-                <h2 className="font-bold text-center text-xl mb-4">
+                <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                   Ps. Daniel M.Th.
                 </h2>
                 <div className="flex flex-col justify-center items-center w-full">
