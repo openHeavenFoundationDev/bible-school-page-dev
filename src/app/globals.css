@@ -20,8 +20,20 @@ html {
 }
 
 /* Media query untuk resolusi yang lebih besar */
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   #program {
+    scroll-margin-top: 5.75rem; /* Atur kembali untuk resolusi yang lebih besar */
+  }
+}
+
+/* CSS kustom untuk id="program-sm" */
+#contact {
+  scroll-margin-top: 7.75rem; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+/* Media query untuk resolusi yang lebih besar */
+@media (min-width: 640px) {
+  #contact {
     scroll-margin-top: 5.75rem; /* Atur kembali untuk resolusi yang lebih besar */
   }
 }

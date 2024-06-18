@@ -176,7 +176,7 @@ export default function Home() {
         {/* -----PROGRAM-ALL-RESOLUTION----- */}
         <div
           id="program"
-          className="bg-indigo-950 rounded-3xl text-white text-sm p-4"
+          className="bg-indigo-950 rounded-3xl text-white text-sm p-4 mb-2 md:mb-6"
         >
           <h1 className="text-yellow-500 text-center text-2xl lg:text-4xl font-bold mb-4">
             PROGRAM
@@ -184,7 +184,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
             {/* PROGRAM STUDI TEOLOGI S1 */}
             <div className="flex justify-center items-center">
-            <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl px-8 py-4 lg:p-4 w-80 lg:w-64 h-80">
+              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl px-8 py-4 lg:p-4 w-80 lg:w-64 h-80">
                 <div>
                   <h2 className="font-bold text-center text-md lg:text-lg mb-4">
                     Sarjana Teologi (S. Th)
@@ -322,7 +322,108 @@ export default function Home() {
             Keterangan: Biaya SPP / Bulan belum termasuk biaya lain-lain
           </p>
         </div>
+
+        {/* -----CONTACT-ALL-RESOLUTION----- */}
+        <div
+          id="contact"
+          className="bg-indigo-950 rounded-3xl text-white text-sm p-6"
+        >
+          <h1 className="text-yellow-500 text-center text-2xl lg:text-4xl font-bold mb-4">
+            CONTACT
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* PS. KEVIN */}
+            <div className="flex justify-center md:justify-end items-center">
+              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 h-80">
+                <h2 className="font-bold text-center text-xl mb-4">
+                  Ps. Kevin Zefanya M.Th.
+                </h2>
+                <div className="flex flex-col justify-center items-center w-full">
+                  <Image
+                    src="/ps-kevin.png"
+                    alt="Ps. Kevin"
+                    width={170}
+                    height={145}
+                    className="rounded-full mb-6"
+                  />
+                  <Link
+                    href={waPsKevin}
+                    target="_blank"
+                    className="bg-slate-500 hover:bg-slate-700 border-2 border-white hover:border-yellow-500 rounded-xl text-center hover:font-bold w-full px-3 py-1"
+                  >
+                    Hubungi Via WA
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* PS. DANIEL */}
+            <div className="flex justify-center md:justify-start items-center">
+              <div className="bg-black border-2 border-yellow-500 flex flex-col justify-between items-center rounded-3xl p-4 w-80 h-80">
+                <h2 className="font-bold text-center text-xl mb-4">
+                  Ps. Daniel M.Th.
+                </h2>
+                <div className="flex flex-col justify-center items-center w-full">
+                  <Image
+                    src="/ps-daniel.png"
+                    alt="Ps. Daniel"
+                    width={170}
+                    height={145}
+                    className="rounded-full mb-6"
+                  />
+                  <Link
+                    href={waPsDaniel}
+                    target="_blank"
+                    className="bg-slate-500 hover:bg-slate-700 border-2 border-white hover:border-yellow-500 rounded-xl text-center hover:font-bold w-full px-3 py-1"
+                  >
+                    Hubungi Via WA
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {/* -----FOOTER----- */}
+      <footer className="bg-black font-semibold text-white text-center text-sm md:text-md p-6">
+        <p className="mb-5">&copy; 2024 OPEN HEAVEN LEARNING CENTRE</p>
+
+        <Link
+          href={mapCabangBali}
+          target="_blank"
+          className="flex justify-center items-center hover:text-yellow-500 mb-5"
+        >
+          <Image
+            src="/map.png"
+            alt="Map"
+            width={24}
+            height={24}
+            className="mr-2"
+          />
+          <p>
+            Kantor Cabang Bali: Jl.Kertapura Gg.Segina No.25 Pemecutan Klod
+            Denpasar
+          </p>
+        </Link>
+
+        <Link
+          href={mapCabangPapua}
+          target="_blank"
+          className="flex justify-center items-center hover:text-yellow-500"
+        >
+          <Image
+            src="/map.png"
+            alt="Map"
+            width={24}
+            height={24}
+            className="mr-2"
+          />
+          <p>
+            Kantor Cabang Papua: Jl. Malibela KM 11 Kota Sorong Papua Barat Daya
+          </p>
+        </Link>
+      </footer>
     </main>
   );
 }
